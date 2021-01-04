@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7418f8b-db9f-49e6-ab60-dae16a35dda4" name="Default Changelist" comment="mock">
+    <list default="true" id="c7418f8b-db9f-49e6-ab60-dae16a35dda4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pang1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/操作说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pang1.json" beforeDir="false" afterPath="$PROJECT_DIR$/pang1.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +93,16 @@
       <updated>1609143828744</updated>
       <workItem from="1609143832984" duration="794000" />
       <workItem from="1609203040645" duration="12791000" />
-      <workItem from="1609720704405" duration="5771000" />
+      <workItem from="1609720704405" duration="11123000" />
     </task>
+    <task id="LOCAL-00001" summary="mock">
+      <created>1609741374730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609741374730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,14 +113,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="mock" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1609234033147">
+    <state x="361" y="74" key="#Deployment" timestamp="1609741342256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609234033147" />
+    <state x="361" y="74" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1609741342256" />
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1609741373486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609741373486" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1609230542567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609230542567" />
+    <state x="598" y="125" key="RollbackChangesDialog" timestamp="1609741357635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="125" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609741357635" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1609730692220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

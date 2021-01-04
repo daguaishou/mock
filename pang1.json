@@ -70,5 +70,49 @@
         "Content-Type": "text/html;charset=gbk"
       }
     }
+  },
+  {
+    "description": "携带cookie的get请求",
+    "request": {
+      "uri": "/getcookie",
+      "method": "get",
+      "cookies": {
+        "login": "true",
+        "name": "111",
+        "age": "111"
+      }
+    },
+    "response": {
+      "status": 200,
+      "text": "请求成功",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "携带cookie的post请求",
+    "request": {
+      "uri": "/postcookie",
+      "method": "post",
+      "json": {
+        "name": "222",
+        "age": "222"
+      },
+      "cookies": {
+        "name": "111",
+        "age":"111"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "test": "222登录成功了",
+        "code": "1"
+      },
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
   }
 ]

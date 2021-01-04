@@ -1,0 +1,74 @@
+[
+  {
+    "description": "带参数的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get",
+      "queries": {
+        "name": "大怪兽",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "带参数的get请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "不带参数的get请求",
+    "request": {
+      "uri": "/get",
+      "method": "get"
+    },
+    "response": {
+      "text": "不带参数的get请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "不带参数的post请求",
+    "request": {
+      "uri": "/post",
+      "method": "post"
+    },
+    "response": {
+      "text": "不带参数的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/redirect",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向到其他地址",
+    "request":{
+      "uri": "/redirectToget",
+      "method": "get"
+    },
+    "redirectTo": "/redirectGet"
+  },
+  {
+    "description":"重定向请求是否成功",
+    "request": {
+      "uri": "/redirectGet",
+      "method": "get"
+    },
+    "response": {
+      "text": "重定向成功，大怪兽是最美的",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]
